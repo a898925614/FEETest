@@ -1,0 +1,5 @@
+C:\Users\User\Downloads\FEETest\wk12\W12\W12\bin\W12.dll
+C:\Users\User\Downloads\FEETest\wk12\W12\W12\bin\W12.pdb
+C:\Users\User\Downloads\FEETest\wk12\W12\W12\obj\Debug\W12.csprojResolveAssemblyReference.cache
+C:\Users\User\Downloads\FEETest\wk12\W12\W12\obj\Debug\W12.dll
+C:\Users\User\Downloads\FEETest\wk12\W12\W12\obj\Debug\W12.pdb
