@@ -16,7 +16,7 @@ namespace W12
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Label1.Text = "輸入輸出"+TextBox1;
+          
             
 
         }

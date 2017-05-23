@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    
+<script>
+    function myFunction() {
+        document.getElementById("m1").innerHTML = "Paragraph changed.";
+    }
+</script>
+
+
+</head>
+<body>
+    <script>
+        function myFunction2() {
+            document.getElementById("m2").innerHTML = "Paragraph changed.";
+        }
+</script>
+    <h2>What Can JavaScript Do?</h2>
+<p id="demo">JavaScript can hide HTML elements.</p>
+<button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
+<hr />
+     <h2>What Can JavaScript Do?</h2>
+<p id="P1">JavaScript can hide HTML elements.</p>
+<button type="button" onclick='if (document.getElementById("P1").innerHTML == " HELLO JavaScript")
+    {document.getElementByld("P1").innerHTML = "JavaScript can change HTML content.";}
+    else
+    {document.getElementByld("P1").innerHTML = "Hello JavaScript";}'>Click Me!</button>
+    <hr />
+    <h2>JavaScript in Head</h2>
+
+<p id="P2">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+    <hr />
+    <p id="m1">m1</p>
+    <p id="m2">m2</p>
+    <p id="m3">m3</p>
+    <button type="button" onclick="myFunction();myFunction2();myFunction3()">gogogogo</button>
+     <script>
+        function myFunction3() {
+            document.getElementById("m3").innerHTML = "Paragraph changed.";
+        }
+</script>
+    <hr />
+    <h3>Output docments.write</h3>
+<h1>My First Web Page</h1>
+    <p>My First Paragraph</p>
+    <script>
+        document.getElementById("demo").innerHTML = 5 + 6;
+</script>
+<hr />
+    <h3>output window.alert("xxx")</h3>
+    <h1>My First Web Page</h1>
+    <script>
+        window.alert(5+6)
+    </script>
+    <hr />
+    <h3>=== vs ==</h3>
+    <script>
+        var i = parseInt("3");
+    </script>
+    <hr />
+    <h3 id="EventEX">Event EX</h3>
+    <button onclick="docment.getElementById('EventEX').innerHTML=Date()">the time is</button>
+    <hr />
+    <h3 id="h31abel"  onclick="docment.getElementById('EventEX').innerHTML=Date()"> EventEX</h3>
+    <hr />
+    <h3>onmouseover / onmouseout</h3>
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px"
+        onmouseover="docment.getElementById('myIage').src='pic_bulon.gif"
+        onmouseover="docment.getElementById('myIage').src='pic_bulboff.gif"
+        "/>
+</body>
+</html>

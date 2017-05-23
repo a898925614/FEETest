@@ -16,7 +16,7 @@
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#CS功能">CS功能</a></li>
+            <li role="presentation"><a href="#Javascrip簡介">CS功能</a></li>
             <li role="presentation"><a href="#">Contact</a></li>
           </ul>
         </nav>
@@ -58,12 +58,34 @@
           <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
       </div>
-        <div id="cse功能" class="jumbotron">
+        <div id="cs功能" class="jumbotron">
             <h1>cs 功能簡介</h1>
                 <p class="lead">CS I/O</p>
              <p class="lead">CS Math</p>
              <p class="lead"> IF</p>
              <p class="lead"> CS For Loop</p>
+        </div>
+        <div class="row marketing">
+            <div class="col-lg-4">
+                <p>CS I/O </p>
+                <img src="5.png" />
+            </div>
+             <div class="col-lg-4">
+                 <p>cs math</p>
+            </div>
+             <div class="col-lg-4">
+
+            </div>
+             <div class="col-lg-4">
+
+            </div>
+        </div>
+         <div id="Javascrip簡介" class="jumbotron">
+            <h1>Javascrip簡介</h1>
+                <p class="lead">Javascrip功能</p>
+             <p class="lead">Javascrip位置</p>
+             <p class="lead"> Javascrip基本語法</p>
+             <p class="lead"> Javascrip基本功能</p>
         </div>
         <div class="row marketing">
             <div class="col-lg-4">
